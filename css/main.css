@@ -4188,8 +4188,40 @@ button.wh-ap-btn::before {
 }
 
 
+/* mobilelogo */
 
   
+/* @media (max-width: 600px) {
+    .logo-mobile .mobile {
+      display: block;
+    }
+    .logo-mobile .desktop .tablet {
+      display: none;
+    }
+  } */
 
-
+ 
   
+
+  /* doctorcardimg */
+
+
+@media  (max-width: 600px) {
+
+    #drimg{
+        height: auto;
+    }
+}
+  
+
+@media  (max-width: 600px) {
+
+    #drimgn{
+font-size: 18px;  
+ 
+    }
+    #drimgn1{
+        font-size: 15px;
+        display: inline;
+    }
+}
