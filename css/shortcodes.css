@@ -2078,6 +2078,13 @@ div:hover > .ttm-box-view-overlay:before, div:hover > .ttm-box-view-content-inne
     background-color: var(--base-skin); 
     transition: all 0.3s ease; 
 }
+
+@media (max-width: 600px){
+    .featured-imagebox-team.style2:hover{
+        background-color: none;
+    }
+
+}
 .featured-imagebox-team.style2:hover .featured-thumbnail img{
     transform: rotateY(8deg);
 }
